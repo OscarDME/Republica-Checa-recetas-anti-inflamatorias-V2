@@ -1,3 +1,9 @@
 {
-  "name": "protizanetlive-recepty"
+  "name": "protizanetlive-recepty",
+  "rewrites": [
+    {
+      "source": "/.well-known/apple-developer-merchantid-domain-association",
+      "destination": "https://stripe.com/files/apple-pay/apple-developer-merchantid-domain-association"
+    }
+  ]
 }
